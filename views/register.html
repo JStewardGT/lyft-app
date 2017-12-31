@@ -17,31 +17,27 @@
           <h4 class="col-xs-6">Join now for free ride credit</h4>
         </div>
         <hr>
-        <form class="form-horizontal">
-          <div class="form-group">
-            <label for="inputEmail3" class="col-sm-2 control-label">Email</label>
-            <div class="col-sm-10">
-              <input type="email" class="form-control" id="inputEmail3" placeholder="Email">
-            </div>
+        <form class="form-inline">
+          <div class="form-group col-xs-5">
+            <select class="form-control">
+              <option value = 'peru' selected>Perú </option>
+              <option value = "argentina">Argentina</option>
+              <option value = "bolivia">Bolivia</option>
+              <option value = "chile">Chile</option>
+              <option value = "brazil">Brazil</option>
+            </select>
           </div>
-          <div class="form-group">
-            <label for="inputPassword3" class="col-sm-2 control-label">Password</label>
-            <div class="col-sm-10">
-              <input type="password" class="form-control" id="inputPassword3" placeholder="Password">
-            </div>
+
+          <div class="form-group col-xs-7">  
+            <label class="sr-only" for="inputHelpBlock">Input with help text</label>
+            <input type="tel" id="inputHelpBlock" class="form-control" aria-describedby="helpBlock" placeholder="Ingrese su número de teléfono.">           
           </div>
+          <div class="form-group col-xs-10 col-xs-offset-2"> 
+            <h5 class="send"> Te enviaremos un texto para verificar tu teléfono</h5>
+          </div>    
           <div class="form-group">
-            <div class="col-sm-offset-2 col-sm-10">
-              <div class="checkbox">
-                <label>
-                  <input type="checkbox"> Remember me
-                </label>
-              </div>
-            </div>
-          </div>
-          <div class="form-group">
-            <div class="col-sm-offset-2 col-sm-10">
-              <button type="submit" class="btn btn-default">Sign in</button>
+            <div class="col-xs-12">
+              <button type="submit" class="btn btn-default next col-xs-12">NEXT</button>
             </div>
           </div>
         </form>    
