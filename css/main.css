@@ -1,0 +1,29 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+/*
+body {
+    
+    background-image: url("../assets/images/wallpaper.jpg"); 
+    background-size: cover; 
+} */
+
+.vh100 {
+	height: 100vh;
+}
+
+/*Clase para centrar el gif*/
+.container-flex-column {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;   
+}
+
+
+img.logo {
+    width: 20%;
+}
