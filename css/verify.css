@@ -1,0 +1,41 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.btn-style {
+    background-color: #df189c;
+    border: none;
+    color: #fff;
+    
+}
+
+body {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.form-header {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center; 
+    margin-top: 1em;  
+}
+
+.re-send {
+    margin-top: 1.5em;
+    padding: 1em 2em;   
+}
+
+.code-text {
+    margin-top: 1.5em;
+}
+
+.next {
+    margin-top: 2em;
+    padding: 1em 2em; 
+}

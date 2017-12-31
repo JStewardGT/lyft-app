@@ -46,13 +46,6 @@ select option {
     color: #fff;
 }
 
-.next-disabled {
-    margin-top: 8em;
-    padding: 1em 5em;
-    border: none;
-    color: #000;
-    background-color: #e471bd;
-}
 
 /* Estilo del botón del modal */
 
