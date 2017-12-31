@@ -22,12 +22,12 @@
             <label class="sr-only" for="exampleInputAmount"></label>
             <div class="input-group">
               <div class="input-group-addon btn-style">LAB-</div>
-              <input type="number" class="form-control" id="exampleInputAmount" placeholder= "código">            
+              <input type="number" class="form-control input-code" id="exampleInputAmount" placeholder= "código">            
             </div>                      
           </div>    
           <div class="form-group form-btn">
             <div class="col-xs-5 col-xs-offset-3">
-              <button type="button" class="btn btn-default re-send btn-style col-xs-12 next-disabled"  data-toggle="modal" data-target="#myModal">Reenviar código</button> 
+              <button type="button" class="btn btn-default re-send btn-style col-xs-12 next-disabled"  data-toggle="modal" data-target="#Modal2">Reenviar código</button> 
             </div>
           </div>
           <div class="form-group col-xs-10 col-xs-offset-2"> 
@@ -41,6 +41,26 @@
       </div>    
     </div>
   </div>
+
+  <!--Modal que de reenvío del código -->
+  <div class="modal fade" tabindex="-1" role="dialog" id="Modal2">
+    <div class="modal-dialog" role="document">
+      <div class="modal-content">
+        <div class="modal-header">
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+          <h4 class="modal-title">Tu nuevo código es:</h4>
+        </div>
+        <div class="modal-body">
+          <p class="re-code"></p>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-default btn-send" data-dismiss="modal">Aceptar</button>
+          <button type="button" class="btn btn-primary">Cancelar</button>
+        </div>
+      </div><!-- /.modal-content -->
+    </div><!-- /.modal-dialog -->
+  </div><!-- /.modal -->
+
   <script src="../vendors/js/jquery-3.2.1.min.js"></script>               
   <script type="text/javascript" src="../vendors/bootstrap/js/bootstrap.min.js"></script>
   <script src="../js/verify.js"></script>         

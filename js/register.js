@@ -39,8 +39,11 @@ $(document).ready(function() {
   $('.next').click(function() {
     var number = Math.round(Math.random() * 999);  
     $('.code').html('LAB-' + number);
+    /* Utilzando localStorage para guardar el código dado */
+    localStorage.setItem('code', number);
   });
 
+  
   /* Redireccionar a la siguiente vista */
   $('.btn-send').click(function() {
     window.location.href = '../views/verify.html';
