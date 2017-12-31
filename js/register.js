@@ -35,9 +35,14 @@ $(document).ready(function() {
     }
   };
 
-  /* Función de envío del alerta con el código*/
+  /* Modal con el código */
   $('.next').click(function() {
-    var number = Math.round(Math.random() * 999);
-    alert('LAB-' + number);
-  }); 
+    var number = Math.round(Math.random() * 999);  
+    $('.code').html('LAB-' + number);
+  });
+
+  /* Redireccionar a la siguiente vista */
+  $('.btn-send').click(function() {
+    window.location.href = '../views/verify.html';
+  });
 });

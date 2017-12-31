@@ -53,3 +53,11 @@ select option {
     color: #000;
     background-color: #e471bd;
 }
+
+/* Estilo del botón del modal */
+
+.btn-send {
+    background-color: #df189c;
+    border: none;
+    color: #fff;
+}
