@@ -1,5 +1,4 @@
 $(document).ready(function() {
-
   /* Función que comprueba cuando el usuario sale del input */
   $('#input-phone').keyup(function() {
     var form = $(this).parents('#form');
