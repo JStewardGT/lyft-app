@@ -1,0 +1,30 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.form-header {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center; 
+    margin-top: 1em;  
+}
+
+.glyphicon-menu-left {
+    color: #df189c;
+    font-size: 1em;
+    margin-right: 1.5em;
+}
+
+hr {
+  color: #887788;
+}
