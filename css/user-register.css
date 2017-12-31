@@ -28,3 +28,27 @@ body {
 hr {
   color: #887788;
 }
+
+form {
+    margin-top: 2em;
+}
+
+/* Estilo de focus de los inputs */
+.focus-input {
+    border-color: #df189c;
+    border-color: rgba(250, 4, 188, 0.8);
+    outline: 0;
+    outline: thin dotted\9;
+    -webkit-box-shadow: 0 0 8px rgba(218, 30, 133, 0.6);
+    box-shadow: 0 0 8px rgba(255, 43, 174, 0.6);
+}
+
+/* Estilo del botón de next*/
+
+.next-disabled {
+    margin-top: 5em;
+    padding: 1em 5em;
+    border: none;
+    color: #000;
+    background-color: #e471bd;
+}
