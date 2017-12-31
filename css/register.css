@@ -38,10 +38,18 @@ select option {
     color: #df189c;
 }
 
-.next {
+.next-enabled {
     margin-top: 8em;
     padding: 1em 5em;
     background-color: #df189c;
     border: none;
     color: #fff;
+}
+
+.next-disabled {
+    margin-top: 8em;
+    padding: 1em 5em;
+    border: none;
+    color: #000;
+    background-color: #e471bd;
 }
