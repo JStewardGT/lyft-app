@@ -54,4 +54,9 @@ $('.re-send').click(function() {
   $('.next').click(function() {
     window.location.href = '../views/user-register.html';
   });
+
+  /* Volver a la vista anterior */
+  $('.btn-reg').click(function() {
+    window.location.href = '../views/register.html';
+  });
 });

@@ -61,3 +61,11 @@ select option {
     border: none;
     color: #fff;
 }
+
+/* Estilo del botón para regresar */
+.btn-log {
+    border: 1px solid #df189c;
+    text-transform: uppercase;
+    margin-top: 2em;
+    padding: 0.8em 2em;
+}

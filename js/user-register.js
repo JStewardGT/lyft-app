@@ -74,5 +74,12 @@ $(document).ready(function() {
   $('.next').click(function() {
     event.preventDefault(); 
     window.location.href = '../views/final-check.html';
+    $('input').val('');
+  });
+
+  /* Evento para regresar a la vista anterior */
+  $('.btn-back').click(function() {
+    event.preventDefault();
+    window.location.href = '../views/verify.html';
   });
 });

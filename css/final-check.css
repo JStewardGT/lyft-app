@@ -16,6 +16,7 @@ body {
 .logo {
     margin-top: 10em;
     width: 50%;
+    cursor: pointer;
 }
 
 .container-flex-column {

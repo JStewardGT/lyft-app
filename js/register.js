@@ -47,4 +47,9 @@ $(document).ready(function() {
   $('.btn-send').click(function() {
     window.location.href = '../views/verify.html';
   });
+
+  /* Volver a la vista anterior */
+  $('.btn-log').click(function() {
+    window.location.href = '../views/log-in.html';
+  });
 });

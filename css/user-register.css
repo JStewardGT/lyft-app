@@ -52,3 +52,10 @@ form {
     color: #000;
     background-color: #e471bd;
 }
+
+/* Estilo del botón regresar */
+.btn-back {
+    border: 1px solid #df189c;
+    text-transform: uppercase;
+    padding: 0.5em 2em;
+}
