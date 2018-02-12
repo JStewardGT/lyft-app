@@ -23,7 +23,8 @@ body {
     flex-direction: column;
     justify-content: flex-start;
     align-items: center; 
-    margin-top: 1em;  
+    margin-top: 1em;
+    margin-bottom: 1.5em;  
 }
 
 .re-send {
@@ -46,4 +47,25 @@ body {
     text-transform: uppercase;
     margin-top: 2em;
     padding: 0.8em 2em;
+}
+
+@media (min-width: 970px) {
+    .form-header {
+        background-color: #df189c;
+        color: #fff;
+        padding: 5.3em;
+    }
+
+    .display-flex {
+        display: flex;
+        justify-content: center;
+    }
+
+    .code-text {
+        margin-top: 2em;
+    }
+
+    .next, .btn-reg {
+        margin-top: 1em;
+    }
 }

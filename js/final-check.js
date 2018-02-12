@@ -3,4 +3,6 @@ $(document).ready(function() {
   $('.logo').click(function() {
     window.history.back();
   });
+
+  $('.check').addClass('animated fadeInDown');
 });

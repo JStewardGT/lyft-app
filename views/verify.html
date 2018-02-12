@@ -11,14 +11,20 @@
 <body>
   <div class="container">
     <div class="row">
-      <div class="col-xs-12">
-        <div class="form-header col-xs-offset-2"> 
-          <h2 class="col-xs-12">Verificación del número</h2>
-          <h4 class="col-xs-10">Join now for free ride credit</h4>
+      <div class="col-lg-6 visible-md	visible-lg">
+        <div class="form-header"> 
+          <h1>Verificación de tu número</h1>
+          <h3>Únete ahora y obtén crédito gratis</h3>
+        </div>
+      </div>  
+      <div class="col-xs-12 col-lg-6">
+        <div class="form-header col-xs-12 hidden-md hidden-lg"> 
+          <h2>Verificación de tu número</h2>
+          <h4>Únete ahora y obtén crédito gratis</h4>
         </div>
         <hr>
         <form class="form" id="form">          
-          <div class="form-group col-xs-5 col-xs-offset-3">               
+          <div class="form-group col-xs-6 col-xs-offset-3">               
             <label class="sr-only" for="exampleInputAmount"></label>
             <div class="input-group">
               <div class="input-group-addon btn-style">LAB-</div>
@@ -26,21 +32,23 @@
             </div>                      
           </div>    
           <div class="form-group form-btn">
-            <div class="col-xs-5 col-xs-offset-3">
-              <button type="button" class="btn btn-default re-send btn-style col-xs-12 next-disabled"  data-toggle="modal" data-target="#Modal2">Reenviar código</button> 
+            <div class="col-xs-6 col-xs-offset-3 display-flex">
+              <button type="button" class="btn btn-default re-send btn-style col-xs-12 col-lg-8 next-disabled"  data-toggle="modal" data-target="#Modal2">Reenviar código</button> 
             </div>
           </div>
-          <div class="form-group col-xs-10 col-xs-offset-2"> 
+          <div class="form-group col-xs-10 col-xs-offset-2 col-lg-8 display-flex"> 
             <h5 class="code-text"> Escribe el código que se envió a tu celular</h5>
           </div>  
-          <div class="form-group">
-            <div class="col-xs-10 col-xs-offset-1">
-              <button type="button" class="btn btn-default next col-xs-12 btn-style" disabled="disabled" data-toggle="modal" data-target="#myModal">NEXT</button>  
+          <div class="form-group col-lg-6">
+            <div class="col-xs-6 col-xs-offset-3 col-lg-8">
+              <button type="button" class="btn btn-default next col-xs-12 btn-style" disabled="disabled" data-toggle="modal" data-target="#myModal">NEXT</button> 
+            </div>   
           </div>
           <!--Botón para volver a register -->  
-          <div class="form-group">
-            <div class="col-xs-10 col-xs-offset-1">
-              <button type="button" class="btn btn-default btn-reg col-xs-12"> Volver </button>  
+          <div class="form-group col-lg-6">
+            <div class="col-xs-6 col-xs-offset-3 col-lg-8">
+              <button type="button" class="btn btn-default btn-reg col-xs-12"> Volver </button>
+            </div>   
           </div>    
         </form>    
       </div>    

@@ -17,6 +17,7 @@ body {
     justify-content: flex-start;
     align-items: center; 
     margin-top: 1em;  
+    margin-bottom: 2em;
 }
 
 .glyphicon-menu-left { 
@@ -39,7 +40,7 @@ select option {
 }
 
 .next-enabled {
-    margin-top: 8em;
+    margin-top: 5em;
     padding: 1em 5em;
     background-color: #df189c;
     border: none;
@@ -47,9 +48,8 @@ select option {
 }
 
 .next-disabled {
-    margin-top: 8em;
-    padding: 1em 5em;
     border: none;
+    padding: 1em 5em;
     color: #000;
     background-color: #e471bd;
 }
@@ -68,4 +68,27 @@ select option {
     text-transform: uppercase;
     margin-top: 2em;
     padding: 0.8em 2em;
+}
+
+@media (min-width: 970px) {
+    .form-header {
+        background-color: #df189c;
+        color: #fff;
+        padding: 2.5em;
+    }
+
+    .display-flex {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    select {
+        width: 100% !important;
+    }
+
+     .btn-log {
+        margin-top: 1em;
+        padding: 0.8em 2em; 
+     }  
 }

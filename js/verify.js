@@ -53,6 +53,7 @@ $('.re-send').click(function() {
   /* Redireccionar a la siguiente vista */
   $('.next').click(function() {
     window.location.href = '../views/user-register.html';
+    $('.input-code').val('');
   });
 
   /* Volver a la vista anterior */

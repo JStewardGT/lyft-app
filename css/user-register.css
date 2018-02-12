@@ -47,7 +47,7 @@ form {
 
 .next-disabled {
     margin-top: 5em;
-    padding: 1em 5em;
+    padding: 1em 4em;
     border: none;
     color: #000;
     background-color: #e471bd;
@@ -57,5 +57,24 @@ form {
 .btn-back {
     border: 1px solid #df189c;
     text-transform: uppercase;
-    padding: 0.5em 2em;
+    padding: 1em 4em;
+}
+
+@media (min-width: 970px) {
+    .form-header {
+        background-color: #df189c;
+        color: #fff;
+        padding: 12em 5.3em;
+    }
+
+    .next-disabled, .btn-back {
+        margin-top: 1em;
+    }
+
+    .display-flex {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
 }

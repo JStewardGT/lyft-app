@@ -10,3 +10,5 @@ $(document).ready(function() {
     window.location.href = 'views/log-in.html';
   }, 5000); 
 });
+
+
