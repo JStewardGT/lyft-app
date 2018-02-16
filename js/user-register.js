@@ -70,8 +70,15 @@ $(document).ready(function() {
       }
     }); 
   } 
+
+  var email = [];
   /* Redireccionar a la siguiente vista */
   $('.next').click(function() {
+    var $emailVal = $('.email').val();
+    email.push($emailVal);
+   
+    localStorage.setItem('email_new_user', JSON.stringify(email));
+   
     event.preventDefault(); 
     window.location.href = '../views/final-check.html';
     $('input').val('');

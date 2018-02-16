@@ -29,6 +29,12 @@ hr {
   color: #887788;
 }
 
+.display-flex-row {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
 select option {
     font-size: 12px;
     height: 0.3em;

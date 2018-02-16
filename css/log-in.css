@@ -1,59 +1,67 @@
 * {
-    box-sizing: border-box;
-    margin: 0;
-    padding: 0;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
 }
 
-/* Imagen de fondo de la página */
-body {  
-    background-image: url("../assets/images/wallpaper.jpg"); 
-    background-size: cover; 
-} 
-
-/* Tamaño de la página */
-.vh100 {
-	height: 100vh;
+body {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
 }
 
-/* Estilo flex para centrar los elementos */
-
-.display-flex {
-    margin-top: 8em;
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
+.display-flex-col{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center; 
+  margin-top: 1em;  
+  margin-bottom: 2em;
 }
 
-
-.display-column {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-} 
-
-
-/* Estilo de los botones */
-.btn-log {
-    padding: 1em 2em;
-    background-color: #fff;
-    border: none;
-    color: #df189c;
-    margin-bottom: 5em;
-    margin-left: 2em;
+.glyphicon-menu-left { 
+  font-size: 1em;
+  margin-right: 1.5em;
 }
 
-@media (min-width: 970px) {
-    body {   
-        background-image: url("../assets/images/wallpaper-desktop.jpg"); 
-        background-position: center;
-        background-repeat: no-repeat;
-    } 
+hr {
+color: #887788;
+height: 10px;
+}
 
-    .btn-log {
-        padding: 1.5em 2.5em;
-        background-color: #df189c;
-        color: #fff;
-    }
-    
+.log-in-title {
+  background-color: #df189c;
+  color: #fff;
+  padding: 5em; 
+}
+
+/*Estilo de los botones*/
+
+.btn-enabled {
+
+  padding: 1em;
+  background-color: #df189c;
+  border: none;
+  color: #fff;
+}
+
+.btn-back {
+  border: 1px solid #df189c;
+  padding: 1em;
+  color: #333;
+}
+
+/* Estilo modal*/
+
+.modal-content {
+  background-color: #fff;
+  font-size: 2em;
+  text-align: center;
+  color: #df189c;
+}
+
+.modal-body {
+  line-height: 30vh;
+  height: 30vh;
 }

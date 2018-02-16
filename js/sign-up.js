@@ -12,6 +12,7 @@ $(document).ready(function() {
     }
   });
  
+  
   /* Función que determina los códigos postales de acuerdo a la selecci+on */
   $('.select').change(function() {
     var $selectVal = $('.select').val();
@@ -52,6 +53,8 @@ $(document).ready(function() {
   };
 
   /* Modal con el código */
+  
+
   $('.next').click(function() {
     var number = Math.round(Math.random() * 999);
     if (number <= 99) {
@@ -59,11 +62,13 @@ $(document).ready(function() {
     } 
     $('.code').html('LAB-' + number);
      
+   //$('#myModal').modal();
     
     /* Utilzando localStorage para guardar el código dado */
     localStorage.setItem('code', number);
   });
 
+  $('.btn-cancel').modal('hide')
   
   /* Redireccionar a la siguiente vista */
   $('.btn-send').click(function() {
@@ -75,6 +80,6 @@ $(document).ready(function() {
 
   /* Volver a la vista anterior */
   $('.btn-log').click(function() {
-    window.location.href = '../views/log-in.html';
+    window.location.href = '../views/verify.html';
   });
 });

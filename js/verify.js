@@ -58,6 +58,6 @@ $('.re-send').click(function() {
 
   /* Volver a la vista anterior */
   $('.btn-reg').click(function() {
-    window.location.href = '../views/register.html';
+    window.location.href = '../views/sign-up.html';
   });
 });

@@ -2,12 +2,12 @@ $(document).ready(function() {
     
   /* Funcion para animar el logo */
   setInterval(function logo() {
-    $('.logo').animate({width: '20%'}, 'slow');
+    $('.logo').animate({width: '40%'}, 'slow');
     $('.logo').animate({width: '50%'}, 'siwng');
-  }, 3000);
+  }, 2000);
     
   setTimeout(function() {
-    window.location.href = 'views/log-in.html';
+    window.location.href = 'views/home.html';
   }, 5000); 
 });
 
