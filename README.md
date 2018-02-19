@@ -1,4 +1,6 @@
-# Proyecto: Lyft
+# Lyft
+
+Lyft es una aplicación de servicio de taxi por dispositivos móviles.
 
 ![App Lyft](assets/images/app.jpg)
 
